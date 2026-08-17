@@ -1,52 +1,2786 @@
 [
   {
+    "title": "User Input/Output",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20User%20Input/Output",
+    "platform": "GFG"
+  },
+  {
+    "title": "Data Types",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20Data%20Types",
+    "platform": "GFG"
+  },
+  {
+    "title": "If-Else Statements",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20If-Else%20Statements",
+    "platform": "GFG"
+  },
+  {
+    "title": "Switch Statement",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20Switch%20Statement",
+    "platform": "GFG"
+  },
+  {
+    "title": "Arrays & Strings Basics",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20Arrays%20%26%20Strings%20Basics",
+    "platform": "GFG"
+  },
+  {
+    "title": "For Loops",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20For%20Loops",
+    "platform": "GFG"
+  },
+  {
+    "title": "While Loops",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20While%20Loops",
+    "platform": "GFG"
+  },
+  {
+    "title": "Functions (Pass by Ref/Val)",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20Functions%20%28Pass%20by%20Ref/Val%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "Time & Space Complexity",
+    "difficulty": "Step 1: Basics - 1.1 Basics & Complexity",
+    "link": "https://www.google.com/search?q=GFG%20Time%20%26%20Space%20Complexity",
+    "platform": "GFG"
+  },
+  {
+    "title": "Rectangular Star Pattern",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Rectangular%20Star%20Pattern",
+    "platform": "GFG"
+  },
+  {
+    "title": "Right Triangle Star",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Right%20Triangle%20Star",
+    "platform": "GFG"
+  },
+  {
+    "title": "Left Triangle Star",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Left%20Triangle%20Star",
+    "platform": "GFG"
+  },
+  {
+    "title": "Right Triangle Inverted",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Right%20Triangle%20Inverted",
+    "platform": "GFG"
+  },
+  {
+    "title": "Left Triangle Inverted",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Left%20Triangle%20Inverted",
+    "platform": "GFG"
+  },
+  {
+    "title": "Star Diamond",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Star%20Diamond",
+    "platform": "GFG"
+  },
+  {
+    "title": "Full Diamond",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Full%20Diamond",
+    "platform": "GFG"
+  },
+  {
+    "title": "Butterfly Pattern",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Butterfly%20Pattern",
+    "platform": "GFG"
+  },
+  {
+    "title": "Hollow Rectangle",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Hollow%20Rectangle",
+    "platform": "GFG"
+  },
+  {
+    "title": "Lower Triangle Numbers",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Lower%20Triangle%20Numbers",
+    "platform": "GFG"
+  },
+  {
+    "title": "Increasing Number Triangle",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Increasing%20Number%20Triangle",
+    "platform": "GFG"
+  },
+  {
+    "title": "Alphabetical Triangle",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Alphabetical%20Triangle",
+    "platform": "GFG"
+  },
+  {
+    "title": "Star Pyramid",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Star%20Pyramid",
+    "platform": "GFG"
+  },
+  {
+    "title": "Reverse Star Pyramid",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Reverse%20Star%20Pyramid",
+    "platform": "GFG"
+  },
+  {
+    "title": "Half Diamond Star",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Half%20Diamond%20Star",
+    "platform": "GFG"
+  },
+  {
+    "title": "Number Diamond",
+    "difficulty": "Step 1: Basics - 1.2 Pattern Problems",
+    "link": "https://www.google.com/search?q=GFG%20Number%20Diamond",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Digits in a Number",
+    "difficulty": "Step 1: Basics - 1.3 Basic Maths",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Digits%20in%20a%20Number",
+    "platform": "GFG"
+  },
+  {
+    "title": "Reverse a Number",
+    "difficulty": "Step 1: Basics - 1.3 Basic Maths",
+    "link": "https://www.google.com/search?q=LeetCode%20Reverse%20a%20Number",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Check Palindrome Number",
+    "difficulty": "Step 1: Basics - 1.3 Basic Maths",
+    "link": "https://www.google.com/search?q=LeetCode%20Check%20Palindrome%20Number",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "GCD / HCF of Two Numbers",
+    "difficulty": "Step 1: Basics - 1.3 Basic Maths",
+    "link": "https://www.google.com/search?q=GFG%20GCD%20/%20HCF%20of%20Two%20Numbers",
+    "platform": "GFG"
+  },
+  {
+    "title": "Armstrong Numbers",
+    "difficulty": "Step 1: Basics - 1.3 Basic Maths",
+    "link": "https://www.google.com/search?q=GFG%20Armstrong%20Numbers",
+    "platform": "GFG"
+  },
+  {
+    "title": "Print all Divisors",
+    "difficulty": "Step 1: Basics - 1.3 Basic Maths",
+    "link": "https://www.google.com/search?q=GFG%20Print%20all%20Divisors",
+    "platform": "GFG"
+  },
+  {
+    "title": "Check for Prime",
+    "difficulty": "Step 1: Basics - 1.3 Basic Maths",
+    "link": "https://www.google.com/search?q=GFG%20Check%20for%20Prime",
+    "platform": "GFG"
+  },
+  {
+    "title": "Hashing Theory",
+    "difficulty": "Step 1: Basics - 1.4 Hashing",
+    "link": "https://www.google.com/search?q=GFG%20Hashing%20Theory",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Frequency of Elements",
+    "difficulty": "Step 1: Basics - 1.4 Hashing",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Frequency%20of%20Elements",
+    "platform": "GFG"
+  },
+  {
+    "title": "Find Element > n/2 Times",
+    "difficulty": "Step 1: Basics - 1.4 Hashing",
+    "link": "https://www.google.com/search?q=LeetCode%20Find%20Element%20%3E%20n/2%20Times",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Highest and Lowest Frequency Element",
+    "difficulty": "Step 1: Basics - 1.4 Hashing",
+    "link": "https://www.google.com/search?q=GFG%20Highest%20and%20Lowest%20Frequency%20Element",
+    "platform": "GFG"
+  },
+  {
+    "title": "Selection Sort",
+    "difficulty": "Step 2: Sorting - 2.1 Basic Sorts",
+    "link": "https://www.google.com/search?q=GFG%20Selection%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Bubble Sort",
+    "difficulty": "Step 2: Sorting - 2.1 Basic Sorts",
+    "link": "https://www.google.com/search?q=GFG%20Bubble%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Insertion Sort",
+    "difficulty": "Step 2: Sorting - 2.1 Basic Sorts",
+    "link": "https://www.google.com/search?q=GFG%20Insertion%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Recursive Bubble Sort",
+    "difficulty": "Step 2: Sorting - 2.1 Basic Sorts",
+    "link": "https://www.google.com/search?q=GFG%20Recursive%20Bubble%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Recursive Insertion Sort",
+    "difficulty": "Step 2: Sorting - 2.1 Basic Sorts",
+    "link": "https://www.google.com/search?q=GFG%20Recursive%20Insertion%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Merge Sort",
+    "difficulty": "Step 2: Sorting - 2.2 Divide & Conquer",
+    "link": "https://www.google.com/search?q=GFG%20Merge%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Quick Sort",
+    "difficulty": "Step 2: Sorting - 2.2 Divide & Conquer",
+    "link": "https://www.google.com/search?q=GFG%20Quick%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Largest Element",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Largest%20Element",
+    "platform": "GFG"
+  },
+  {
+    "title": "Second Largest Element",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Second%20Largest%20Element",
+    "platform": "GFG"
+  },
+  {
+    "title": "Check if Sorted",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Check%20if%20Sorted",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Remove%20Duplicates%20from%20Sorted%20Array",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Left Rotate by One",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Left%20Rotate%20by%20One",
+    "platform": "GFG"
+  },
+  {
+    "title": "Left Rotate by D Places",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Left%20Rotate%20by%20D%20Places",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Move Zeros to End",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Move%20Zeros%20to%20End",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Linear Search",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Linear%20Search",
+    "platform": "GFG"
+  },
+  {
+    "title": "Union of Two Sorted Arrays",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Union%20of%20Two%20Sorted%20Arrays",
+    "platform": "GFG"
+  },
+  {
+    "title": "Find Missing Number",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Find%20Missing%20Number",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max Consecutive Ones",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20Consecutive%20Ones",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Find Single Number (others twice)",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Find%20Single%20Number%20%28others%20twice%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Subarray with Given Sum",
+    "difficulty": "Step 3: Arrays - 3.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Longest%20Subarray%20with%20Given%20Sum",
+    "platform": "GFG"
+  },
+  {
     "title": "Two Sum",
-    "difficulty": "Easy",
-    "link": "https://leetcode.com/problems/two-sum/"
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Two%20Sum",
+    "platform": "LeetCode"
   },
   {
-    "title": "Best Time to Buy and Sell Stock",
-    "difficulty": "Easy",
-    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    "title": "Sort 0s 1s and 2s (Dutch Flag)",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Sort%200s%201s%20and%202s%20%28Dutch%20Flag%29",
+    "platform": "LeetCode"
   },
   {
-    "title": "Merge Intervals",
-    "difficulty": "Medium",
-    "link": "https://leetcode.com/problems/merge-intervals/"
+    "title": "Majority Element >n/2 (Boyer-Moore)",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Majority%20Element%20%3En/2%20%28Boyer-Moore%29",
+    "platform": "LeetCode"
   },
   {
-    "title": "Number of Islands",
-    "difficulty": "Medium",
-    "link": "https://leetcode.com/problems/number-of-islands/"
+    "title": "Kadane's Algorithm: Max Subarray Sum",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Kadane%27s%20Algorithm%3A%20Max%20Subarray%20Sum",
+    "platform": "LeetCode"
   },
   {
-    "title": "LRU Cache",
-    "difficulty": "Medium",
-    "link": "https://leetcode.com/problems/lru-cache/"
+    "title": "Stock Buy and Sell (1 transaction)",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Stock%20Buy%20and%20Sell%20%281%20transaction%29",
+    "platform": "LeetCode"
   },
   {
-    "title": "Word Break",
-    "difficulty": "Medium",
-    "link": "https://leetcode.com/problems/word-break/"
+    "title": "Rearrange by Sign",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Rearrange%20by%20Sign",
+    "platform": "LeetCode"
   },
   {
-    "title": "Course Schedule",
-    "difficulty": "Medium",
-    "link": "https://leetcode.com/problems/course-schedule/"
+    "title": "Next Permutation",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Next%20Permutation",
+    "platform": "LeetCode"
   },
   {
-    "title": "Trapping Rain Water",
-    "difficulty": "Hard",
-    "link": "https://leetcode.com/problems/trapping-rain-water/"
+    "title": "Leaders in Array",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Leaders%20in%20Array",
+    "platform": "GFG"
   },
   {
-    "title": "Serialize and Deserialize Binary Tree",
-    "difficulty": "Hard",
-    "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Consecutive%20Sequence",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Set%20Matrix%20Zeroes",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Rotate Matrix 90",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Rotate%20Matrix%2090",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Spiral Matrix",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Spiral%20Matrix",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Subarrays with Sum K",
+    "difficulty": "Step 3: Arrays - 3.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Subarrays%20with%20Sum%20K",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Pascal's Triangle",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Pascal%27s%20Triangle",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Majority Element >n/3",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Majority%20Element%20%3En/3",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "3 Sum",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%203%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "4 Sum",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%204%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Largest Subarray with 0 Sum",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Largest%20Subarray%20with%200%20Sum",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Subarrays XOR=K",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Subarrays%20XOR%3DK",
+    "platform": "GFG"
+  },
+  {
+    "title": "Merge Overlapping Intervals",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Merge%20Overlapping%20Intervals",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Merge 2 Sorted Arrays Without Extra Space",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Merge%202%20Sorted%20Arrays%20Without%20Extra%20Space",
+    "platform": "GFG"
+  },
+  {
+    "title": "Find Repeating and Missing",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Find%20Repeating%20and%20Missing",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Inversions (Merge Sort)",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Inversions%20%28Merge%20Sort%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "Reverse Pairs",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Reverse%20Pairs",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Maximum Product Subarray",
+    "difficulty": "Step 3: Arrays - 3.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Maximum%20Product%20Subarray",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Binary Search",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Binary%20Search",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Lower Bound",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=GFG%20Lower%20Bound",
+    "platform": "GFG"
+  },
+  {
+    "title": "Upper Bound",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=GFG%20Upper%20Bound",
+    "platform": "GFG"
+  },
+  {
+    "title": "Search Insert Position",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Search%20Insert%20Position",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Floor and Ceil in Sorted Array",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=GFG%20Floor%20and%20Ceil%20in%20Sorted%20Array",
+    "platform": "GFG"
+  },
+  {
+    "title": "First and Last Occurrence",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20First%20and%20Last%20Occurrence",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Occurrences",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Occurrences",
+    "platform": "GFG"
+  },
+  {
+    "title": "Search in Rotated Array I",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Search%20in%20Rotated%20Array%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Search in Rotated Array II",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Search%20in%20Rotated%20Array%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min in Rotated Sorted Array",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20in%20Rotated%20Sorted%20Array",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "How Many Times Rotated",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=GFG%20How%20Many%20Times%20Rotated",
+    "platform": "GFG"
+  },
+  {
+    "title": "Single Element in Sorted Array",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Single%20Element%20in%20Sorted%20Array",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Find Peak Element",
+    "difficulty": "Step 4: Binary Search - 4.1 1D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Find%20Peak%20Element",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Square Root (BS)",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Square%20Root%20%28BS%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Nth Root",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=GFG%20Nth%20Root",
+    "platform": "GFG"
+  },
+  {
+    "title": "Koko Eating Bananas",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Koko%20Eating%20Bananas",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Days for M Bouquets",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Days%20for%20M%20Bouquets",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Smallest Divisor Given Threshold",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Smallest%20Divisor%20Given%20Threshold",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Capacity to Ship in D Days",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Capacity%20to%20Ship%20in%20D%20Days",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Kth Missing Positive",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Kth%20Missing%20Positive",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Aggressive Cows",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=GFG%20Aggressive%20Cows",
+    "platform": "GFG"
+  },
+  {
+    "title": "Book Allocation",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=GFG%20Book%20Allocation",
+    "platform": "GFG"
+  },
+  {
+    "title": "Split Array Largest Sum",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Split%20Array%20Largest%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Painter's Partition",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=GFG%20Painter%27s%20Partition",
+    "platform": "GFG"
+  },
+  {
+    "title": "Min Max Distance to Gas Stations",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Max%20Distance%20to%20Gas%20Stations",
+    "platform": "LeetCode"
   },
   {
     "title": "Median of Two Sorted Arrays",
-    "difficulty": "Hard",
-    "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=LeetCode%20Median%20of%20Two%20Sorted%20Arrays",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Kth Element of Two Sorted Arrays",
+    "difficulty": "Step 4: Binary Search - 4.2 On Answers",
+    "link": "https://www.google.com/search?q=GFG%20Kth%20Element%20of%20Two%20Sorted%20Arrays",
+    "platform": "GFG"
+  },
+  {
+    "title": "Row with Max 1s",
+    "difficulty": "Step 4: Binary Search - 4.3 2D Arrays",
+    "link": "https://www.google.com/search?q=GFG%20Row%20with%20Max%201s",
+    "platform": "GFG"
+  },
+  {
+    "title": "Search in 2D Matrix",
+    "difficulty": "Step 4: Binary Search - 4.3 2D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Search%20in%202D%20Matrix",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Search in 2D Matrix II",
+    "difficulty": "Step 4: Binary Search - 4.3 2D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Search%20in%202D%20Matrix%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Peak Element in 2D Matrix",
+    "difficulty": "Step 4: Binary Search - 4.3 2D Arrays",
+    "link": "https://www.google.com/search?q=LeetCode%20Peak%20Element%20in%202D%20Matrix",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Remove Outermost Parentheses",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Remove%20Outermost%20Parentheses",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Reverse Words in String",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Reverse%20Words%20in%20String",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Largest Odd Number in String",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Largest%20Odd%20Number%20in%20String",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Common Prefix",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Common%20Prefix",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Isomorphic Strings",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Isomorphic%20Strings",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Check Rotation",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Check%20Rotation",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Check Anagram",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Check%20Anagram",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Sort Characters by Frequency",
+    "difficulty": "Step 5: Strings - 5.1 Basic",
+    "link": "https://www.google.com/search?q=LeetCode%20Sort%20Characters%20by%20Frequency",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max Nesting Depth of Parentheses",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20Nesting%20Depth%20of%20Parentheses",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Roman to Integer",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Roman%20to%20Integer",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Integer to Roman",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Integer%20to%20Roman",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "atoi",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20atoi",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Substrings",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Substrings",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Palindromic%20Substring",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Sum of Beauty of Substrings",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Sum%20of%20Beauty%20of%20Substrings",
+    "platform": "GFG"
+  },
+  {
+    "title": "Min Swaps for Balanced String",
+    "difficulty": "Step 5: Strings - 5.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Swaps%20for%20Balanced%20String",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Chars to Add for Palindrome",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Min%20Chars%20to%20Add%20for%20Palindrome",
+    "platform": "GFG"
+  },
+  {
+    "title": "KMP: Build LPS Array",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20KMP%3A%20Build%20LPS%20Array",
+    "platform": "GFG"
+  },
+  {
+    "title": "KMP: Count Occurrences",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20KMP%3A%20Count%20Occurrences",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Shortest Palindrome",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Shortest%20Palindrome",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Happy Prefix",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Happy%20Prefix",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "strStr",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20strStr",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Repeated String Match",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Repeated%20String%20Match",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Repeats to Match",
+    "difficulty": "Step 5: Strings - 5.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Min%20Repeats%20to%20Match",
+    "platform": "GFG"
+  },
+  {
+    "title": "Intro to LL",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Intro%20to%20LL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Insert at Head",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Insert%20at%20Head",
+    "platform": "GFG"
+  },
+  {
+    "title": "Insert at Tail",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Insert%20at%20Tail",
+    "platform": "GFG"
+  },
+  {
+    "title": "Insert at Kth",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Insert%20at%20Kth",
+    "platform": "GFG"
+  },
+  {
+    "title": "Delete Head",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Delete%20Head",
+    "platform": "GFG"
+  },
+  {
+    "title": "Delete Tail",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Delete%20Tail",
+    "platform": "GFG"
+  },
+  {
+    "title": "Delete Kth Node",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Delete%20Kth%20Node",
+    "platform": "GFG"
+  },
+  {
+    "title": "Delete by Value",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Delete%20by%20Value",
+    "platform": "GFG"
+  },
+  {
+    "title": "Find Length",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Find%20Length",
+    "platform": "GFG"
+  },
+  {
+    "title": "Search",
+    "difficulty": "Step 6: Linked Lists - 6.1 Singly LL",
+    "link": "https://www.google.com/search?q=GFG%20Search",
+    "platform": "GFG"
+  },
+  {
+    "title": "Intro to DLL",
+    "difficulty": "Step 6: Linked Lists - 6.2 Doubly LL",
+    "link": "https://www.google.com/search?q=GFG%20Intro%20to%20DLL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Insert Head DLL",
+    "difficulty": "Step 6: Linked Lists - 6.2 Doubly LL",
+    "link": "https://www.google.com/search?q=GFG%20Insert%20Head%20DLL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Insert Tail DLL",
+    "difficulty": "Step 6: Linked Lists - 6.2 Doubly LL",
+    "link": "https://www.google.com/search?q=GFG%20Insert%20Tail%20DLL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Delete Head DLL",
+    "difficulty": "Step 6: Linked Lists - 6.2 Doubly LL",
+    "link": "https://www.google.com/search?q=GFG%20Delete%20Head%20DLL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Delete Tail DLL",
+    "difficulty": "Step 6: Linked Lists - 6.2 Doubly LL",
+    "link": "https://www.google.com/search?q=GFG%20Delete%20Tail%20DLL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Reverse DLL",
+    "difficulty": "Step 6: Linked Lists - 6.2 Doubly LL",
+    "link": "https://www.google.com/search?q=GFG%20Reverse%20DLL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Delete Node DLL",
+    "difficulty": "Step 6: Linked Lists - 6.2 Doubly LL",
+    "link": "https://www.google.com/search?q=GFG%20Delete%20Node%20DLL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Middle of LL",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Middle%20of%20LL",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Reverse LL",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Reverse%20LL",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Detect Loop (Floyd's)",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Detect%20Loop%20%28Floyd%27s%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Find Loop Start",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Find%20Loop%20Start",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Loop Length",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Loop%20Length",
+    "platform": "GFG"
+  },
+  {
+    "title": "Palindrome LL",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Palindrome%20LL",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Odd-Even Segregation",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Odd-Even%20Segregation",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Remove Nth from End",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Remove%20Nth%20from%20End",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Delete Middle",
+    "difficulty": "Step 6: Linked Lists - 6.3 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Delete%20Middle",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Add Two Numbers",
+    "difficulty": "Step 6: Linked Lists - 6.4 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Add%20Two%20Numbers",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Sort LL (Merge Sort)",
+    "difficulty": "Step 6: Linked Lists - 6.4 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Sort%20LL%20%28Merge%20Sort%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Odd-Even LL",
+    "difficulty": "Step 6: Linked Lists - 6.4 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Odd-Even%20LL",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Merge K Sorted Lists",
+    "difficulty": "Step 6: Linked Lists - 6.4 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Merge%20K%20Sorted%20Lists",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Reverse in K-Group",
+    "difficulty": "Step 6: Linked Lists - 6.4 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Reverse%20in%20K-Group",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Flatten Multilevel LL",
+    "difficulty": "Step 6: Linked Lists - 6.4 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Flatten%20Multilevel%20LL",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Clone with Random Pointer",
+    "difficulty": "Step 6: Linked Lists - 6.4 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Clone%20with%20Random%20Pointer",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Intro to Recursion",
+    "difficulty": "Step 7: Recursion - 7.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Intro%20to%20Recursion",
+    "platform": "GFG"
+  },
+  {
+    "title": "Print 1 to N",
+    "difficulty": "Step 7: Recursion - 7.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Print%201%20to%20N",
+    "platform": "GFG"
+  },
+  {
+    "title": "Print N to 1",
+    "difficulty": "Step 7: Recursion - 7.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Print%20N%20to%201",
+    "platform": "GFG"
+  },
+  {
+    "title": "Sum of N Numbers",
+    "difficulty": "Step 7: Recursion - 7.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Sum%20of%20N%20Numbers",
+    "platform": "GFG"
+  },
+  {
+    "title": "Reverse Array",
+    "difficulty": "Step 7: Recursion - 7.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Reverse%20Array",
+    "platform": "GFG"
+  },
+  {
+    "title": "Fibonacci",
+    "difficulty": "Step 7: Recursion - 7.1 Basics",
+    "link": "https://www.google.com/search?q=LeetCode%20Fibonacci",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "All Binary Strings",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=GFG%20All%20Binary%20Strings",
+    "platform": "GFG"
+  },
+  {
+    "title": "All Valid Parentheses",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=LeetCode%20All%20Valid%20Parentheses",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "All Subsequences / Power Set",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=LeetCode%20All%20Subsequences%20/%20Power%20Set",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Subsequences Sum K",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=TUF%20Count%20Subsequences%20Sum%20K",
+    "platform": "TUF"
+  },
+  {
+    "title": "Exists Subsequence Sum K",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=GFG%20Exists%20Subsequence%20Sum%20K",
+    "platform": "GFG"
+  },
+  {
+    "title": "Combination Sum I",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=LeetCode%20Combination%20Sum%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Combination Sum II",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=LeetCode%20Combination%20Sum%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Subset Sum I",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=GFG%20Subset%20Sum%20I",
+    "platform": "GFG"
+  },
+  {
+    "title": "Subset Sum II",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=LeetCode%20Subset%20Sum%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Combination Sum III",
+    "difficulty": "Step 7: Recursion - 7.2 Subsequences",
+    "link": "https://www.google.com/search?q=LeetCode%20Combination%20Sum%20III",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Letter Combinations Phone",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=LeetCode%20Letter%20Combinations%20Phone",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Palindrome Check (Recursion)",
+    "difficulty": "Step 7: Recursion - 7.1 Basics",
+    "link": "https://www.google.com/search?q=LeetCode%20Palindrome%20Check%20%28Recursion%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Palindrome Partitioning",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=LeetCode%20Palindrome%20Partitioning",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Word Search",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=LeetCode%20Word%20Search",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "N-Queens",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=LeetCode%20N-Queens",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Rat in Maze",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=GFG%20Rat%20in%20Maze",
+    "platform": "GFG"
+  },
+  {
+    "title": "Word Break",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=LeetCode%20Word%20Break",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "M-Coloring",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=GFG%20M-Coloring",
+    "platform": "GFG"
+  },
+  {
+    "title": "Sudoku Solver",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=LeetCode%20Sudoku%20Solver",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Expression Add Operators",
+    "difficulty": "Step 7: Recursion - 7.3 Backtracking",
+    "link": "https://www.google.com/search?q=LeetCode%20Expression%20Add%20Operators",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Intro to Bits",
+    "difficulty": "Step 8: Bit Manipulation - 8.1 Concepts",
+    "link": "https://www.google.com/search?q=GFG%20Intro%20to%20Bits",
+    "platform": "GFG"
+  },
+  {
+    "title": "Check Kth Bit Set",
+    "difficulty": "Step 8: Bit Manipulation - 8.1 Concepts",
+    "link": "https://www.google.com/search?q=GFG%20Check%20Kth%20Bit%20Set",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Set Bits",
+    "difficulty": "Step 8: Bit Manipulation - 8.1 Concepts",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Set%20Bits",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Power of 2",
+    "difficulty": "Step 8: Bit Manipulation - 8.1 Concepts",
+    "link": "https://www.google.com/search?q=LeetCode%20Power%20of%202",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Bit Flips",
+    "difficulty": "Step 8: Bit Manipulation - 8.1 Concepts",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Bit%20Flips",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Single Number I",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Single%20Number%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Single Number II",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Single%20Number%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Single Number III",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Single%20Number%20III",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "XOR in Range L-R",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=GFG%20XOR%20in%20Range%20L-R",
+    "platform": "GFG"
+  },
+  {
+    "title": "Divide without Division",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Divide%20without%20Division",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Reverse Bits",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Reverse%20Bits",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Total Hamming Distance",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Total%20Hamming%20Distance",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Find Two Non-Repeating",
+    "difficulty": "Step 8: Bit Manipulation - 8.2 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Find%20Two%20Non-Repeating",
+    "platform": "GFG"
+  },
+  {
+    "title": "Sieve of Eratosthenes",
+    "difficulty": "Step 8: Bit Manipulation - 8.3 Advanced",
+    "link": "https://www.google.com/search?q=LeetCode%20Sieve%20of%20Eratosthenes",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Prime Factorization (Sieve)",
+    "difficulty": "Step 8: Bit Manipulation - 8.3 Advanced",
+    "link": "https://www.google.com/search?q=GFG%20Prime%20Factorization%20%28Sieve%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "Binary Exponentiation",
+    "difficulty": "Step 8: Bit Manipulation - 8.3 Advanced",
+    "link": "https://www.google.com/search?q=LeetCode%20Binary%20Exponentiation",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Numbers with N Set Bits",
+    "difficulty": "Step 8: Bit Manipulation - 8.3 Advanced",
+    "link": "https://www.google.com/search?q=GFG%20Numbers%20with%20N%20Set%20Bits",
+    "platform": "GFG"
+  },
+  {
+    "title": "Power Set using Bitmask",
+    "difficulty": "Step 8: Bit Manipulation - 8.3 Advanced",
+    "link": "https://www.google.com/search?q=LeetCode%20Power%20Set%20using%20Bitmask",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stack using Array",
+    "difficulty": "Step 9: Stacks & Queues - 9.1 Implement",
+    "link": "https://www.google.com/search?q=GFG%20Stack%20using%20Array",
+    "platform": "GFG"
+  },
+  {
+    "title": "Queue using Array",
+    "difficulty": "Step 9: Stacks & Queues - 9.1 Implement",
+    "link": "https://www.google.com/search?q=GFG%20Queue%20using%20Array",
+    "platform": "GFG"
+  },
+  {
+    "title": "Stack using Queue",
+    "difficulty": "Step 9: Stacks & Queues - 9.1 Implement",
+    "link": "https://www.google.com/search?q=LeetCode%20Stack%20using%20Queue",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Queue using Stack",
+    "difficulty": "Step 9: Stacks & Queues - 9.1 Implement",
+    "link": "https://www.google.com/search?q=LeetCode%20Queue%20using%20Stack",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stack using LL",
+    "difficulty": "Step 9: Stacks & Queues - 9.1 Implement",
+    "link": "https://www.google.com/search?q=GFG%20Stack%20using%20LL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Queue using LL",
+    "difficulty": "Step 9: Stacks & Queues - 9.1 Implement",
+    "link": "https://www.google.com/search?q=GFG%20Queue%20using%20LL",
+    "platform": "GFG"
+  },
+  {
+    "title": "Next Greater I",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Next%20Greater%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Next Greater II (circular)",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Next%20Greater%20II%20%28circular%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Previous Greater",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=GFG%20Previous%20Greater",
+    "platform": "GFG"
+  },
+  {
+    "title": "Next Smaller",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=GFG%20Next%20Smaller",
+    "platform": "GFG"
+  },
+  {
+    "title": "Previous Smaller",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=GFG%20Previous%20Smaller",
+    "platform": "GFG"
+  },
+  {
+    "title": "Trapping Rain Water",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Trapping%20Rain%20Water",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Sum of Subarray Minimums",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Sum%20of%20Subarray%20Minimums",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Asteroid Collision",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Asteroid%20Collision",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Sum of Subarray Ranges",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Sum%20of%20Subarray%20Ranges",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Remove K Digits",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Remove%20K%20Digits",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Largest%20Rectangle%20in%20Histogram",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Maximal Rectangle",
+    "difficulty": "Step 9: Stacks & Queues - 9.2 Monotonic",
+    "link": "https://www.google.com/search?q=LeetCode%20Maximal%20Rectangle",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Valid Parentheses",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Valid%20Parentheses",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Stack",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Stack",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "LRU Cache",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20LRU%20Cache",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "LFU Cache",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20LFU%20Cache",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Online Stock Span",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Online%20Stock%20Span",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Celebrity Problem",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Celebrity%20Problem",
+    "platform": "GFG"
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Sliding%20Window%20Maximum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Daily Temperatures",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Daily%20Temperatures",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Car Fleet",
+    "difficulty": "Step 9: Stacks & Queues - 9.3 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Car%20Fleet",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Substring No Repeat",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Substring%20No%20Repeat",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max Consecutive Ones III",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20Consecutive%20Ones%20III",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Fruits into Baskets",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Fruits%20into%20Baskets",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Repeating Char Replacement",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Repeating%20Char%20Replacement",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Binary Subarrays with Sum",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Binary%20Subarrays%20with%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Nice Subarrays",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Nice%20Subarrays",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Substrings All 3 Chars",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Substrings%20All%203%20Chars",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max Points from Cards",
+    "difficulty": "Step 10: Sliding Window - 10.1 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20Points%20from%20Cards",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Substr At Most K Distinct",
+    "difficulty": "Step 10: Sliding Window - 10.2 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Substr%20At%20Most%20K%20Distinct",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Substrings Exactly K Distinct",
+    "difficulty": "Step 10: Sliding Window - 10.2 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Substrings%20Exactly%20K%20Distinct",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Minimum Window Substring",
+    "difficulty": "Step 10: Sliding Window - 10.2 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Minimum%20Window%20Substring",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Minimum Window Subsequence",
+    "difficulty": "Step 10: Sliding Window - 10.2 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Minimum%20Window%20Subsequence",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Intro to Heap",
+    "difficulty": "Step 11: Heaps - 11.1 Learn",
+    "link": "https://www.google.com/search?q=GFG%20Intro%20to%20Heap",
+    "platform": "GFG"
+  },
+  {
+    "title": "Implement Min Heap",
+    "difficulty": "Step 11: Heaps - 11.1 Learn",
+    "link": "https://www.google.com/search?q=GFG%20Implement%20Min%20Heap",
+    "platform": "GFG"
+  },
+  {
+    "title": "Implement Max Heap",
+    "difficulty": "Step 11: Heaps - 11.1 Learn",
+    "link": "https://www.google.com/search?q=GFG%20Implement%20Max%20Heap",
+    "platform": "GFG"
+  },
+  {
+    "title": "Heap Sort",
+    "difficulty": "Step 11: Heaps - 11.1 Learn",
+    "link": "https://www.google.com/search?q=GFG%20Heap%20Sort",
+    "platform": "GFG"
+  },
+  {
+    "title": "Kth Largest",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Kth%20Largest",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Kth Smallest",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Kth%20Smallest",
+    "platform": "GFG"
+  },
+  {
+    "title": "Sort K-Sorted Array",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Sort%20K-Sorted%20Array",
+    "platform": "GFG"
+  },
+  {
+    "title": "Merge K Sorted Lists",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Merge%20K%20Sorted%20Lists",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Top%20K%20Frequent%20Elements",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Top K Frequent Words",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Top%20K%20Frequent%20Words",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "K Closest Elements",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20K%20Closest%20Elements",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Task Scheduler",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Task%20Scheduler",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Hand of Straights",
+    "difficulty": "Step 11: Heaps - 11.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Hand%20of%20Straights",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max Sum Combination",
+    "difficulty": "Step 11: Heaps - 11.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Max%20Sum%20Combination",
+    "platform": "GFG"
+  },
+  {
+    "title": "Median from Data Stream",
+    "difficulty": "Step 11: Heaps - 11.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Median%20from%20Data%20Stream",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Kth Largest in Stream",
+    "difficulty": "Step 11: Heaps - 11.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Kth%20Largest%20in%20Stream",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Meeting Rooms II",
+    "difficulty": "Step 11: Heaps - 11.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Meeting%20Rooms%20II",
+    "platform": "GFG"
+  },
+  {
+    "title": "Min Refueling Stops",
+    "difficulty": "Step 11: Heaps - 11.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Refueling%20Stops",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "IPO",
+    "difficulty": "Step 11: Heaps - 11.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20IPO",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "K Closest Points to Origin",
+    "difficulty": "Step 11: Heaps - 11.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20K%20Closest%20Points%20to%20Origin",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Assign Cookies",
+    "difficulty": "Step 12: Greedy - 12.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Assign%20Cookies",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Fractional Knapsack",
+    "difficulty": "Step 12: Greedy - 12.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Fractional%20Knapsack",
+    "platform": "GFG"
+  },
+  {
+    "title": "Min Coins",
+    "difficulty": "Step 12: Greedy - 12.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Coins",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Lemonade Change",
+    "difficulty": "Step 12: Greedy - 12.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Lemonade%20Change",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Largest Number",
+    "difficulty": "Step 12: Greedy - 12.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Largest%20Number",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Valid Parenthesis String",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Valid%20Parenthesis%20String",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "N Meetings in Room",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20N%20Meetings%20in%20Room",
+    "platform": "GFG"
+  },
+  {
+    "title": "Jump Game I",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Jump%20Game%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Jump Game II",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Jump%20Game%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Platforms",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Min%20Platforms",
+    "platform": "GFG"
+  },
+  {
+    "title": "Job Sequencing",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Job%20Sequencing",
+    "platform": "GFG"
+  },
+  {
+    "title": "Candy",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Candy",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Insert Interval",
+    "difficulty": "Step 12: Greedy - 12.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Insert%20Interval",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Non-overlapping Intervals",
+    "difficulty": "Step 12: Greedy - 12.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Non-overlapping%20Intervals",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Merge Intervals",
+    "difficulty": "Step 12: Greedy - 12.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Merge%20Intervals",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Cost to Cut Stick",
+    "difficulty": "Step 12: Greedy - 12.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Cost%20to%20Cut%20Stick",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Arrows to Burst Balloons",
+    "difficulty": "Step 12: Greedy - 12.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Arrows%20to%20Burst%20Balloons",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Reorganize String",
+    "difficulty": "Step 12: Greedy - 12.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Reorganize%20String",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Gas Station",
+    "difficulty": "Step 12: Greedy - 12.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Gas%20Station",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "BT Representation",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=GFG%20BT%20Representation",
+    "platform": "GFG"
+  },
+  {
+    "title": "Inorder",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=LeetCode%20Inorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Preorder",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=LeetCode%20Preorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Postorder",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=LeetCode%20Postorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Iterative Inorder",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=LeetCode%20Iterative%20Inorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Iterative Preorder",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=LeetCode%20Iterative%20Preorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Iterative Postorder (2 Stacks)",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=GFG%20Iterative%20Postorder%20%282%20Stacks%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "Iterative Postorder (1 Stack)",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=GFG%20Iterative%20Postorder%20%281%20Stack%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "Level Order BFS",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=LeetCode%20Level%20Order%20BFS",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "All Traversals One Pass",
+    "difficulty": "Step 13: Binary Trees - 13.1 Traversals",
+    "link": "https://www.google.com/search?q=GFG%20All%20Traversals%20One%20Pass",
+    "platform": "GFG"
+  },
+  {
+    "title": "Height of BT",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Height%20of%20BT",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Check Balanced",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Check%20Balanced",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Diameter",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Diameter",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max Path Sum",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20Path%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Identical Trees",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Identical%20Trees",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Zigzag Level Order",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Zigzag%20Level%20Order",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Boundary Traversal",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Boundary%20Traversal",
+    "platform": "GFG"
+  },
+  {
+    "title": "Vertical Order",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Vertical%20Order",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Top View",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Top%20View",
+    "platform": "GFG"
+  },
+  {
+    "title": "Bottom View",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Bottom%20View",
+    "platform": "GFG"
+  },
+  {
+    "title": "Right View",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Right%20View",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Left View",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Left%20View",
+    "platform": "GFG"
+  },
+  {
+    "title": "Symmetric Tree",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Symmetric%20Tree",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Root to Node Path",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=GFG%20Root%20to%20Node%20Path",
+    "platform": "GFG"
+  },
+  {
+    "title": "LCA",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20LCA",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max Width",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20Width",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Level Order Line by Line",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Level%20Order%20Line%20by%20Line",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Nodes at Distance K",
+    "difficulty": "Step 13: Binary Trees - 13.2 Medium",
+    "link": "https://www.google.com/search?q=LeetCode%20Nodes%20at%20Distance%20K",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Children Sum Property",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Children%20Sum%20Property",
+    "platform": "GFG"
+  },
+  {
+    "title": "Min Time to Burn Tree",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Min%20Time%20to%20Burn%20Tree",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Nodes Complete BT",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Nodes%20Complete%20BT",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Construct BT Inorder+Preorder",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Construct%20BT%20Inorder%2BPreorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Construct BT Inorder+Postorder",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Construct%20BT%20Inorder%2BPostorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Serialize/Deserialize BT",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Serialize/Deserialize%20BT",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Morris Inorder",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Morris%20Inorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Morris Preorder",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Morris%20Preorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Flatten BT to LL",
+    "difficulty": "Step 13: Binary Trees - 13.3 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Flatten%20BT%20to%20LL",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Intro BST",
+    "difficulty": "Step 14: BST - 14.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Intro%20BST",
+    "platform": "GFG"
+  },
+  {
+    "title": "Search BST",
+    "difficulty": "Step 14: BST - 14.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Search%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min/Max BST",
+    "difficulty": "Step 14: BST - 14.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Min/Max%20BST",
+    "platform": "GFG"
+  },
+  {
+    "title": "Ceil BST",
+    "difficulty": "Step 14: BST - 14.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Ceil%20BST",
+    "platform": "GFG"
+  },
+  {
+    "title": "Floor BST",
+    "difficulty": "Step 14: BST - 14.1 Easy",
+    "link": "https://www.google.com/search?q=GFG%20Floor%20BST",
+    "platform": "GFG"
+  },
+  {
+    "title": "Insert BST",
+    "difficulty": "Step 14: BST - 14.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Insert%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Delete BST",
+    "difficulty": "Step 14: BST - 14.1 Easy",
+    "link": "https://www.google.com/search?q=LeetCode%20Delete%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Kth Smallest BST",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Kth%20Smallest%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Kth Largest BST",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Kth%20Largest%20BST",
+    "platform": "GFG"
+  },
+  {
+    "title": "Validate BST",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Validate%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "LCA BST",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20LCA%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Construct BST from Preorder",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Construct%20BST%20from%20Preorder",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Inorder Successor",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Inorder%20Successor",
+    "platform": "GFG"
+  },
+  {
+    "title": "Inorder Predecessor",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Inorder%20Predecessor",
+    "platform": "GFG"
+  },
+  {
+    "title": "BST Iterator",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20BST%20Iterator",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Two Sum BST",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Two%20Sum%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Recover BST",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Recover%20BST",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Largest BST Subtree",
+    "difficulty": "Step 14: BST - 14.2 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Largest%20BST%20Subtree",
+    "platform": "GFG"
+  },
+  {
+    "title": "Graph Repr (Matrix)",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Graph%20Repr%20%28Matrix%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "Graph Repr (List)",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Graph%20Repr%20%28List%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "BFS",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20BFS",
+    "platform": "GFG"
+  },
+  {
+    "title": "DFS",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20DFS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Cycle Undirected BFS",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Cycle%20Undirected%20BFS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Cycle Undirected DFS",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Cycle%20Undirected%20DFS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Flood Fill",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=LeetCode%20Flood%20Fill",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Clone Graph",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=LeetCode%20Clone%20Graph",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Number of Provinces",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=LeetCode%20Number%20of%20Provinces",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Rotten Oranges",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=LeetCode%20Rotten%20Oranges",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Cycle Directed DFS",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Cycle%20Directed%20DFS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Cycle Directed Kahn's",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=GFG%20Cycle%20Directed%20Kahn%27s",
+    "platform": "GFG"
+  },
+  {
+    "title": "Eventual Safe States",
+    "difficulty": "Step 15: Graphs - 15.1 Basics",
+    "link": "https://www.google.com/search?q=LeetCode%20Eventual%20Safe%20States",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Topo Sort DFS",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=GFG%20Topo%20Sort%20DFS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Topo Sort Kahn's",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=GFG%20Topo%20Sort%20Kahn%27s",
+    "platform": "GFG"
+  },
+  {
+    "title": "Course Schedule I",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=LeetCode%20Course%20Schedule%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Course Schedule II",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=LeetCode%20Course%20Schedule%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Safe States BFS",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=LeetCode%20Safe%20States%20BFS",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Alien Dictionary",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=GFG%20Alien%20Dictionary",
+    "platform": "GFG"
+  },
+  {
+    "title": "Shortest Path DAG",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=GFG%20Shortest%20Path%20DAG",
+    "platform": "GFG"
+  },
+  {
+    "title": "Shortest Path Undirected",
+    "difficulty": "Step 15: Graphs - 15.2 Topo Sort",
+    "link": "https://www.google.com/search?q=GFG%20Shortest%20Path%20Undirected",
+    "platform": "GFG"
+  },
+  {
+    "title": "Dijkstra's PQ",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=GFG%20Dijkstra%27s%20PQ",
+    "platform": "GFG"
+  },
+  {
+    "title": "Dijkstra's Set",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=GFG%20Dijkstra%27s%20Set",
+    "platform": "GFG"
+  },
+  {
+    "title": "Bellman-Ford",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=GFG%20Bellman-Ford",
+    "platform": "GFG"
+  },
+  {
+    "title": "Floyd Warshall",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=GFG%20Floyd%20Warshall",
+    "platform": "GFG"
+  },
+  {
+    "title": "City Smallest Neighbors",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=LeetCode%20City%20Smallest%20Neighbors",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Cheapest Flights K Stops",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=LeetCode%20Cheapest%20Flights%20K%20Stops",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Network Delay",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=LeetCode%20Network%20Delay",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Ways to Arrive at Destination",
+    "difficulty": "Step 15: Graphs - 15.3 Shortest Path",
+    "link": "https://www.google.com/search?q=LeetCode%20Ways%20to%20Arrive%20at%20Destination",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "MST Prim's",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=GFG%20MST%20Prim%27s",
+    "platform": "GFG"
+  },
+  {
+    "title": "MST Kruskal's",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=GFG%20MST%20Kruskal%27s",
+    "platform": "GFG"
+  },
+  {
+    "title": "DSU by Rank",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=GFG%20DSU%20by%20Rank",
+    "platform": "GFG"
+  },
+  {
+    "title": "DSU by Size",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=GFG%20DSU%20by%20Size",
+    "platform": "GFG"
+  },
+  {
+    "title": "Bridges",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=LeetCode%20Bridges",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Articulation Points",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=GFG%20Articulation%20Points",
+    "platform": "GFG"
+  },
+  {
+    "title": "SCC Kosaraju",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=GFG%20SCC%20Kosaraju",
+    "platform": "GFG"
+  },
+  {
+    "title": "SCC Tarjan",
+    "difficulty": "Step 15: Graphs - 15.4 MST & DSU",
+    "link": "https://www.google.com/search?q=GFG%20SCC%20Tarjan",
+    "platform": "GFG"
+  },
+  {
+    "title": "Making Large Island",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Making%20Large%20Island",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Swim in Rising Water",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Swim%20in%20Rising%20Water",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Accounts Merge",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Accounts%20Merge",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Islands II",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=GFG%20Islands%20II",
+    "platform": "GFG"
+  },
+  {
+    "title": "Most Stones Removed",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Most%20Stones%20Removed",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Word Ladder I",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Word%20Ladder%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Word Ladder II",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Word%20Ladder%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Bipartite Check",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Bipartite%20Check",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Cost Connect Points",
+    "difficulty": "Step 15: Graphs - 15.5 Other",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Cost%20Connect%20Points",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "DP Intro (Memo vs Tab)",
+    "difficulty": "Step 16: DP - 16.1 Intro & 1D",
+    "link": "https://www.google.com/search?q=GFG%20DP%20Intro%20%28Memo%20vs%20Tab%29",
+    "platform": "GFG"
+  },
+  {
+    "title": "Climbing Stairs",
+    "difficulty": "Step 16: DP - 16.1 Intro & 1D",
+    "link": "https://www.google.com/search?q=LeetCode%20Climbing%20Stairs",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Frog Jump",
+    "difficulty": "Step 16: DP - 16.1 Intro & 1D",
+    "link": "https://www.google.com/search?q=GFG%20Frog%20Jump",
+    "platform": "GFG"
+  },
+  {
+    "title": "Frog Jump K Dist",
+    "difficulty": "Step 16: DP - 16.1 Intro & 1D",
+    "link": "https://www.google.com/search?q=GFG%20Frog%20Jump%20K%20Dist",
+    "platform": "GFG"
+  },
+  {
+    "title": "House Robber I",
+    "difficulty": "Step 16: DP - 16.1 Intro & 1D",
+    "link": "https://www.google.com/search?q=LeetCode%20House%20Robber%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "House Robber II",
+    "difficulty": "Step 16: DP - 16.1 Intro & 1D",
+    "link": "https://www.google.com/search?q=LeetCode%20House%20Robber%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Ninja's Training",
+    "difficulty": "Step 16: DP - 16.1 Intro & 1D",
+    "link": "https://www.google.com/search?q=GFG%20Ninja%27s%20Training",
+    "platform": "GFG"
+  },
+  {
+    "title": "Unique Paths",
+    "difficulty": "Step 16: DP - 16.2 Grid DP",
+    "link": "https://www.google.com/search?q=LeetCode%20Unique%20Paths",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Unique Paths II",
+    "difficulty": "Step 16: DP - 16.2 Grid DP",
+    "link": "https://www.google.com/search?q=LeetCode%20Unique%20Paths%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Path Sum",
+    "difficulty": "Step 16: DP - 16.2 Grid DP",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Path%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Triangle",
+    "difficulty": "Step 16: DP - 16.2 Grid DP",
+    "link": "https://www.google.com/search?q=LeetCode%20Triangle",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Falling Path Sum",
+    "difficulty": "Step 16: DP - 16.2 Grid DP",
+    "link": "https://www.google.com/search?q=LeetCode%20Falling%20Path%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Cherry Pickup II",
+    "difficulty": "Step 16: DP - 16.2 Grid DP",
+    "link": "https://www.google.com/search?q=LeetCode%20Cherry%20Pickup%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Subset Sum Target",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=GFG%20Subset%20Sum%20Target",
+    "platform": "GFG"
+  },
+  {
+    "title": "Partition Equal Subset",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=LeetCode%20Partition%20Equal%20Subset",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Partition Min Abs Diff",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=LeetCode%20Partition%20Min%20Abs%20Diff",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Subsets Sum K",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Subsets%20Sum%20K",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Partitions Given Diff",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Partitions%20Given%20Diff",
+    "platform": "GFG"
+  },
+  {
+    "title": "0/1 Knapsack",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=GFG%200/1%20Knapsack",
+    "platform": "GFG"
+  },
+  {
+    "title": "Unbounded Knapsack",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=GFG%20Unbounded%20Knapsack",
+    "platform": "GFG"
+  },
+  {
+    "title": "Rod Cutting",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=GFG%20Rod%20Cutting",
+    "platform": "GFG"
+  },
+  {
+    "title": "Coin Change I",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=LeetCode%20Coin%20Change%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Coin Change II",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=LeetCode%20Coin%20Change%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Target Sum",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=LeetCode%20Target%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "One and Zeroes",
+    "difficulty": "Step 16: DP - 16.3 Knapsack",
+    "link": "https://www.google.com/search?q=LeetCode%20One%20and%20Zeroes",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "LCS",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=GFG%20LCS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Print LCS",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=GFG%20Print%20LCS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Longest Common Substring",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Common%20Substring",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Palindromic Subseq",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Palindromic%20Subseq",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Insertions for Palindrome",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Insertions%20for%20Palindrome",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Insert/Delete to Make Equal",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Insert/Delete%20to%20Make%20Equal",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Shortest Common Superseq",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Shortest%20Common%20Superseq",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Distinct Subsequences",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Distinct%20Subsequences",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Edit Distance",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Edit%20Distance",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Wildcard Matching",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Wildcard%20Matching",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Regex Matching",
+    "difficulty": "Step 16: DP - 16.4 LCS",
+    "link": "https://www.google.com/search?q=LeetCode%20Regex%20Matching",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stock I",
+    "difficulty": "Step 16: DP - 16.5 Stocks",
+    "link": "https://www.google.com/search?q=LeetCode%20Stock%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stock II",
+    "difficulty": "Step 16: DP - 16.5 Stocks",
+    "link": "https://www.google.com/search?q=LeetCode%20Stock%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stock III",
+    "difficulty": "Step 16: DP - 16.5 Stocks",
+    "link": "https://www.google.com/search?q=LeetCode%20Stock%20III",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stock IV",
+    "difficulty": "Step 16: DP - 16.5 Stocks",
+    "link": "https://www.google.com/search?q=LeetCode%20Stock%20IV",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stock Cooldown",
+    "difficulty": "Step 16: DP - 16.5 Stocks",
+    "link": "https://www.google.com/search?q=LeetCode%20Stock%20Cooldown",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Stock Transaction Fee",
+    "difficulty": "Step 16: DP - 16.5 Stocks",
+    "link": "https://www.google.com/search?q=LeetCode%20Stock%20Transaction%20Fee",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "LIS O(n2)",
+    "difficulty": "Step 16: DP - 16.6 LIS",
+    "link": "https://www.google.com/search?q=LeetCode%20LIS%20O%28n2%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "LIS O(n log n)",
+    "difficulty": "Step 16: DP - 16.6 LIS",
+    "link": "https://www.google.com/search?q=LeetCode%20LIS%20O%28n%20log%20n%29",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Print LIS",
+    "difficulty": "Step 16: DP - 16.6 LIS",
+    "link": "https://www.google.com/search?q=GFG%20Print%20LIS",
+    "platform": "GFG"
+  },
+  {
+    "title": "Largest Divisible Subset",
+    "difficulty": "Step 16: DP - 16.6 LIS",
+    "link": "https://www.google.com/search?q=LeetCode%20Largest%20Divisible%20Subset",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest String Chain",
+    "difficulty": "Step 16: DP - 16.6 LIS",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20String%20Chain",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Longest Bitonic Subseq",
+    "difficulty": "Step 16: DP - 16.6 LIS",
+    "link": "https://www.google.com/search?q=GFG%20Longest%20Bitonic%20Subseq",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count LIS",
+    "difficulty": "Step 16: DP - 16.6 LIS",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20LIS",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Matrix Chain Multiplication",
+    "difficulty": "Step 16: DP - 16.7 MCM",
+    "link": "https://www.google.com/search?q=GFG%20Matrix%20Chain%20Multiplication",
+    "platform": "GFG"
+  },
+  {
+    "title": "Partition Array Max Sum",
+    "difficulty": "Step 16: DP - 16.7 MCM",
+    "link": "https://www.google.com/search?q=LeetCode%20Partition%20Array%20Max%20Sum",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Burst Balloons",
+    "difficulty": "Step 16: DP - 16.7 MCM",
+    "link": "https://www.google.com/search?q=LeetCode%20Burst%20Balloons",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Boolean Parenthesization",
+    "difficulty": "Step 16: DP - 16.7 MCM",
+    "link": "https://www.google.com/search?q=GFG%20Boolean%20Parenthesization",
+    "platform": "GFG"
+  },
+  {
+    "title": "Palindrome Partitioning II",
+    "difficulty": "Step 16: DP - 16.7 MCM",
+    "link": "https://www.google.com/search?q=LeetCode%20Palindrome%20Partitioning%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Cost Cut Stick",
+    "difficulty": "Step 16: DP - 16.7 MCM",
+    "link": "https://www.google.com/search?q=LeetCode%20Min%20Cost%20Cut%20Stick",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Evaluate Boolean Expr",
+    "difficulty": "Step 16: DP - 16.7 MCM",
+    "link": "https://www.google.com/search?q=GFG%20Evaluate%20Boolean%20Expr",
+    "platform": "GFG"
+  },
+  {
+    "title": "Implement Trie I",
+    "difficulty": "Step 17: Tries - 17.1 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Implement%20Trie%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Implement Trie II",
+    "difficulty": "Step 17: Tries - 17.1 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Implement%20Trie%20II",
+    "platform": "GFG"
+  },
+  {
+    "title": "Longest String All Prefixes",
+    "difficulty": "Step 17: Tries - 17.1 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Longest%20String%20All%20Prefixes",
+    "platform": "GFG"
+  },
+  {
+    "title": "Count Distinct Substrings",
+    "difficulty": "Step 17: Tries - 17.1 Problems",
+    "link": "https://www.google.com/search?q=GFG%20Count%20Distinct%20Substrings",
+    "platform": "GFG"
+  },
+  {
+    "title": "Max XOR Two Numbers",
+    "difficulty": "Step 17: Tries - 17.1 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20XOR%20Two%20Numbers",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Max XOR with Array Element",
+    "difficulty": "Step 17: Tries - 17.1 Problems",
+    "link": "https://www.google.com/search?q=LeetCode%20Max%20XOR%20with%20Array%20Element",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count and Say",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20and%20Say",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Zigzag Conversion",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Zigzag%20Conversion",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Text Justification",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Text%20Justification",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Scramble String",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Scramble%20String",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Interleaving String",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Interleaving%20String",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Count Palindromic Subsequences",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Count%20Palindromic%20Subsequences",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Basic Calculator I",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Basic%20Calculator%20I",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Basic Calculator II",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Basic%20Calculator%20II",
+    "platform": "LeetCode"
+  },
+  {
+    "title": "Min Chars Delete",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=GFG%20Min%20Chars%20Delete",
+    "platform": "GFG"
+  },
+  {
+    "title": "Longest Substr Balanced Vowels",
+    "difficulty": "Step 18: Advanced Strings - 18.1 Hard",
+    "link": "https://www.google.com/search?q=LeetCode%20Longest%20Substr%20Balanced%20Vowels",
+    "platform": "LeetCode"
   }
 ]
