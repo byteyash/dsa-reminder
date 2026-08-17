@@ -12,6 +12,19 @@ def slugify(text):
     return t.strip("-")[:60] or "problem"
 
 
+def safe_call(bot_token, method, params, label=""):
+    """Call the Telegram API but never let a single failed call (expired
+    callback, already-edited message, etc.) crash the whole run."""
+    try:
+        result = lib.api_call(bot_token, method, params)
+        if not result.get("ok"):
+            print(f"Telegram API call failed ({label or method}): {result}")
+        return result
+    except Exception as e:
+        print(f"Telegram API call raised ({label or method}): {e}")
+        return None
+
+
 def main():
     bot_token = os.environ.get("BOT_TOKEN")
     if not bot_token:
@@ -29,9 +42,9 @@ def main():
     awaiting = lib.load_json(awaiting_path, {})
     questions = lib.load_json(questions_path, [])
 
-    resp = lib.api_call(bot_token, "getUpdates", {"offset": offset_data["offset"], "timeout": 0})
-    if not resp.get("ok"):
-        print("getUpdates failed:", resp)
+    resp = safe_call(bot_token, "getUpdates", {"offset": offset_data["offset"], "timeout": 0}, "getUpdates")
+    if not resp or not resp.get("ok"):
+        print("getUpdates failed, nothing more to do this run")
         sys.exit(1)
 
     updates = resp["result"]
@@ -40,6 +53,8 @@ def main():
     saved = []
 
     for upd in updates:
+        # advance the offset no matter what, so a bad update never gets
+        # reprocessed forever
         offset_data["offset"] = upd["update_id"] + 1
 
         cq = upd.get("callback_query")
@@ -55,30 +70,30 @@ def main():
             if action == "done":
                 status[day_index] = {"status": "done", "date": date.today().isoformat()}
                 status_changed = True
-                lib.api_call(bot_token, "answerCallbackQuery",
-                             {"callback_query_id": cq["id"], "text": "Marked done"})
-                lib.api_call(bot_token, "editMessageText", {
+                safe_call(bot_token, "answerCallbackQuery",
+                          {"callback_query_id": cq["id"], "text": "Marked done"}, "answerCallbackQuery")
+                safe_call(bot_token, "editMessageText", {
                     "chat_id": chat_id, "message_id": message_id,
                     "text": original_text + "\n\nStatus: Done",
                     "reply_markup": json.dumps({"inline_keyboard": []}),
-                })
-                lib.api_call(bot_token, "sendMessage", {
+                }, "editMessageText")
+                safe_call(bot_token, "sendMessage", {
                     "chat_id": chat_id,
                     "text": "Nice. Reply with your solution code and I'll save it to the repo, or reply 'skip'.",
-                })
+                }, "sendMessage")
                 awaiting = {"day_index": day_index, "chat_id": chat_id}
                 awaiting_changed = True
 
             elif action == "skip":
                 status[day_index] = {"status": "not_done", "date": date.today().isoformat()}
                 status_changed = True
-                lib.api_call(bot_token, "answerCallbackQuery",
-                             {"callback_query_id": cq["id"], "text": "Marked not done"})
-                lib.api_call(bot_token, "editMessageText", {
+                safe_call(bot_token, "answerCallbackQuery",
+                          {"callback_query_id": cq["id"], "text": "Marked not done"}, "answerCallbackQuery")
+                safe_call(bot_token, "editMessageText", {
                     "chat_id": chat_id, "message_id": message_id,
                     "text": original_text + "\n\nStatus: Not done",
                     "reply_markup": json.dumps({"inline_keyboard": []}),
-                })
+                }, "editMessageText")
             continue
 
         msg = upd.get("message")
@@ -90,8 +105,8 @@ def main():
 
             day_index = awaiting["day_index"]
             if text.strip().lower() == "skip":
-                lib.api_call(bot_token, "sendMessage",
-                             {"chat_id": chat_id, "text": "Skipped saving a solution."})
+                safe_call(bot_token, "sendMessage",
+                          {"chat_id": chat_id, "text": "Skipped saving a solution."}, "sendMessage")
             else:
                 idx = int(day_index)
                 title = questions[idx]["title"] if idx < len(questions) else "problem"
@@ -101,8 +116,8 @@ def main():
                 with open(os.path.join(sol_dir, fname), "w") as f:
                     f.write(text)
                 saved.append(fname)
-                lib.api_call(bot_token, "sendMessage",
-                             {"chat_id": chat_id, "text": f"Saved to solutions/{fname}"})
+                safe_call(bot_token, "sendMessage",
+                          {"chat_id": chat_id, "text": f"Saved to solutions/{fname}"}, "sendMessage")
 
             awaiting = {}
             awaiting_changed = True
