@@ -1,0 +1,29 @@
+name: Poll Telegram Updates
+
+on:
+  schedule:
+    # every 15 minutes. Lower the number for faster status updates.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Poll for button presses
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: python3 poll_updates.py
+
+      - name: Commit status changes
+        run: |
+          git config user.name "dsa-reminder-bot"
+          git config user.email "actions@github.com"
+          git add status.json offset.json awaiting.json solutions/
+          git diff --cached --quiet || git commit -m "Update problem status"
+          git push
