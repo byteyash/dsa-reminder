@@ -1,67 +1,49 @@
-import json
 import os
 import sys
-import urllib.parse
-import urllib.request
-from datetime import date, datetime
+from datetime import date
 
-
-def load_questions(path):
-    with open(path, "r") as f:
-        return json.load(f)
+import reminder_lib as lib
 
 
 def main():
     bot_token = os.environ.get("BOT_TOKEN")
     chat_id = os.environ.get("CHAT_ID")
-    start_date_str = os.environ.get("START_DATE", "2026-06-01")
+    skip_weekends = os.environ.get("SKIP_WEEKENDS", "false").lower() == "true"
+    per_day = int(os.environ.get("QUESTIONS_PER_DAY", "2"))
 
     if not bot_token or not chat_id:
         print("Missing BOT_TOKEN or CHAT_ID env vars")
         sys.exit(1)
 
+    if skip_weekends and lib.is_weekend():
+        print("Weekend and SKIP_WEEKENDS is true, not sending today")
+        return
+
     base_dir = os.path.dirname(__file__)
-    questions = load_questions(os.path.join(base_dir, "questions.json"))
+    questions = lib.load_json(os.path.join(base_dir, "questions.json"), [])
     if not questions:
         print("questions.json is empty")
         sys.exit(1)
 
-    start_date = datetime.strptime(start_date_str, "%Y-%m-%d").date()
-    today = date.today()
-    day_index = (today - start_date).days
+    status = lib.load_json(os.path.join(base_dir, "status.json"), {})
 
-    if day_index < 0:
-        print("Start date is in the future, nothing to send yet")
+    idxs = lib.pick_daily_targets(questions, status, count=per_day)
+    if not idxs:
+        print("Nothing to send")
         return
 
-    # loop back to day 1 once the list runs out, so it never just stops
-    day_index = day_index % len(questions)
-    q = questions[day_index]
+    # remember today's picks so the evening nudge knows what to check on
+    today_path = os.path.join(base_dir, "today.json")
+    lib.save_json(today_path, {"date": date.today().isoformat(), "indices": idxs})
 
-    text = (
-        f"DSA reminder - Day {day_index + 1}\n\n"
-        f"{q['title']}\n"
-        f"Topic: {q.get('difficulty', 'N/A')}\n"
-        f"{q.get('link', '')}"
-    )
-
-    keyboard = {
-        "inline_keyboard": [[
-            {"text": "Done", "callback_data": f"done|{day_index}"},
-            {"text": "Not done", "callback_data": f"skip|{day_index}"},
-        ]]
-    }
-
-    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-    data = urllib.parse.urlencode({
-        "chat_id": chat_id,
-        "text": text,
-        "reply_markup": json.dumps(keyboard),
-    }).encode()
-    req = urllib.request.Request(url, data=data)
-    with urllib.request.urlopen(req) as resp:
-        result = resp.read().decode()
-        print(result)
+    try:
+        for pos, idx in enumerate(idxs, start=1):
+            text = lib.build_message(questions, status, idx, daily_position=pos, daily_total=len(idxs))
+            result = lib.send_reminder_message(bot_token, chat_id, text, idx)
+            print(result)
+    except Exception as e:
+        print(f"Failed to send reminder: {e}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
