@@ -1,0 +1,32 @@
+name: Daily DSA Reminder
+
+on:
+  schedule:
+    # 1:30 UTC = 7:00 AM IST. Edit the two numbers to change the time.
+    - cron: "30 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send reminder
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          SKIP_WEEKENDS: "false"
+          QUESTIONS_PER_DAY: "2"
+        run: python3 send_reminder.py
+
+      - name: Commit today's picks
+        run: |
+          git config user.name "dsa-reminder-bot"
+          git config user.email "actions@github.com"
+          git add today.json
+          git diff --cached --quiet || git commit -m "Record today's picks"
+          git push
