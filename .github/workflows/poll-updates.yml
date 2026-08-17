@@ -24,6 +24,7 @@ jobs:
         run: |
           git config user.name "dsa-reminder-bot"
           git config user.email "actions@github.com"
+          mkdir -p solutions
           git add status.json offset.json awaiting.json solutions/
           git diff --cached --quiet || git commit -m "Update problem status"
           git push
