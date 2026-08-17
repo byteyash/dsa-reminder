@@ -2,7 +2,6 @@ name: Poll Telegram Updates
 
 on:
   schedule:
-    # every 15 minutes. Lower the number for faster status updates.
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
@@ -24,7 +23,6 @@ jobs:
         run: |
           git config user.name "dsa-reminder-bot"
           git config user.email "actions@github.com"
-          mkdir -p solutions
-          git add status.json offset.json awaiting.json solutions/
+          git add status.json offset.json
           git diff --cached --quiet || git commit -m "Update problem status"
           git push
