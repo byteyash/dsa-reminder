@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/merge-intervals/"
+  },
+  {
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/number-of-islands/"
+  },
+  {
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/lru-cache/"
+  },
+  {
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/word-break/"
+  },
+  {
+    "title": "Course Schedule",
+    "difficulty": "Medium",
+    "link": "https://leetcode.com/problems/course-schedule/"
+  },
+  {
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+  }
+]
