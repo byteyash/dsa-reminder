@@ -2,7 +2,10 @@ name: Poll Telegram Updates
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # runs at :07, :22, :37, :52 - offset from round numbers (:00/:15/:30/:45)
+    # on purpose, since those exact marks are the busiest times across all of
+    # GitHub Actions and get delayed the most.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch: {}
 
 permissions:
