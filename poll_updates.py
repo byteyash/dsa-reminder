@@ -28,9 +28,11 @@ def main():
     base_dir = os.path.dirname(__file__)
     offset_path = os.path.join(base_dir, "offset.json")
     status_path = os.path.join(base_dir, "status.json")
+    questions_path = os.path.join(base_dir, "questions.json")
 
     offset_data = lib.load_json(offset_path, {"offset": 0})
     status = lib.load_json(status_path, {})
+    questions = lib.load_json(questions_path, [])
 
     resp = safe_call(bot_token, "getUpdates", {"offset": offset_data["offset"], "timeout": 0}, "getUpdates")
     if not resp or not resp.get("ok"):
@@ -56,12 +58,21 @@ def main():
         message_id = cq["message"]["message_id"]
         original_text = cq["message"].get("text", "")
 
+        idx = int(day_index)
+        title = questions[idx]["title"] if idx < len(questions) else None
+
         if action == "done":
-            status[day_index] = {"status": "done", "date": date.today().isoformat()}
+            status[day_index] = {
+                "status": "done", "date": date.today().isoformat(),
+                "problem_number": idx + 1, "title": title,
+            }
             status_changed = True
             ack_text, suffix = "Marked done", "\n\nStatus: Done"
         elif action == "skip":
-            status[day_index] = {"status": "not_done", "date": date.today().isoformat()}
+            status[day_index] = {
+                "status": "not_done", "date": date.today().isoformat(),
+                "problem_number": idx + 1, "title": title,
+            }
             status_changed = True
             ack_text, suffix = "Marked not done", "\n\nStatus: Not done"
         else:
