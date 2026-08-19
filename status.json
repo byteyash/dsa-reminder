@@ -12,5 +12,11 @@
     "date": "2026-08-19",
     "problem_number": 178,
     "title": "All Subsequences / Power Set"
+  },
+  "125": {
+    "status": "done",
+    "date": "2026-08-19",
+    "problem_number": 126,
+    "title": "Longest Palindromic Substring"
   }
 }
