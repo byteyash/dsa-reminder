@@ -6,5 +6,11 @@
   "22": {
     "status": "done",
     "date": "2026-08-18"
+  },
+  "177": {
+    "status": "done",
+    "date": "2026-08-19",
+    "problem_number": 178,
+    "title": "All Subsequences / Power Set"
   }
 }
