@@ -30,5 +30,11 @@
     "date": "2026-09-01",
     "problem_number": 233,
     "title": "Min Stack"
+  },
+  "239": {
+    "status": "done",
+    "date": "2026-09-01",
+    "problem_number": 240,
+    "title": "Car Fleet"
   }
 }
